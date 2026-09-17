@@ -1,0 +1,11 @@
+# Local / sensitive
+.codebuddy/
+
+# Build output
+*.vsix
+
+# Editor
+.vscode/
+
+# Node
+node_modules/

@@ -1,0 +1,35 @@
+{
+  "name": "jade-veil-theme",
+  "displayName": "Jade Veil Theme",
+  "description": "A calm muted jade palette with coordinated light and dark variants.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "assets/icon.png",
+  "keywords": [
+    "jade",
+    "teal",
+    "green",
+    "light",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jade Veil Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/jade-veil-light-color-theme.json"
+      },
+      {
+        "label": "Jade Veil Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jade-veil-dark-color-theme.json"
+      }
+    ]
+  }
+}

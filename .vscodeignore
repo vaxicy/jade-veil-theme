@@ -1,0 +1,14 @@
+# Local / sensitive (must not ship in the .vsix)
+.codebuddy/**
+
+# Dev-only sources (keep README-referenced store-assets/screenshots)
+scripts/**
+**/*.py
+
+# Dev-only assets / editor config
+.vscode/**
+assets/logo-prompt.md
+
+# Build / metadata
+.gitignore
+.vscodeignore

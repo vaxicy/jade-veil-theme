@@ -4,6 +4,10 @@
   "description": "A calm muted jade palette with coordinated light and dark variants.",
   "version": "1.0.0",
   "publisher": "lilinhuang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/jade-veil-theme.git"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
